@@ -6,7 +6,7 @@
 /*   By: fjankows <fjankows@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/19 15:09:52 by fjankows          #+#    #+#             */
-/*   Updated: 2020/02/26 21:30:01 by fjankows         ###   ########.fr       */
+/*   Updated: 2020/03/05 12:36:31 by fjankows         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-
-# define INT_MAX +2147483647
+# include <limits.h>
 
 typedef struct	s_list
 {
